@@ -1,0 +1,66 @@
+/*---------Mujer------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mujer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #5fe96d;
+font-weight: 700;
+font-size: 20px;
+padding: 30px 0;
+}
+
+/*-----Segunda----*/
+.dos{
+  width: 100vw; 
+  background: url(ff.png);
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+.contenedor_dos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dos_tit{
+  display: flex;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 800;
+  padding: 275px 72px 0px 34px;
+   font-family: "Madimi One", sans-serif;
+}
+
+.dos_parr{
+  font-size: 20px;
+ /* text-align: center*/;
+ color: black;
+}
+
+.tress{
+  background-color: black;
+}
+
+.tress_titulo {
+  display: flex;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 00;
+  font-family: "Madimi One", sans-serif;
+}
+
+.cambio_tress {
+ /* border: 2px solid #5fe96d; */
+}
+
+.tress_titulo span + span {
+  background-color:#000000; 
+  color: #5fe96d; 
+}
